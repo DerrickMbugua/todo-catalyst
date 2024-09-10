@@ -1,0 +1,33 @@
+/* Reset margin for body and paragraphs */
+body,
+p {
+    margin: 0;
+}
+
+/* Apply global box-sizing and font-family */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for input elements */
+input {
+    margin: 0;
+    resize: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Style for button elements */
+button {
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
